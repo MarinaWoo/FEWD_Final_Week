@@ -1,0 +1,167 @@
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.clearfix:before, .clearfix:after {
+  content:"";
+  display:table;
+}
+
+.clearfix:after{
+  clear:both;
+}
+
+body {
+	padding: 0;
+	margin: 0;
+}
+
+nav {
+	width: 10%;
+	height: 100%;
+  	position: fixed;
+  	background-color: white;
+  	left: 0;
+  	top: 0;
+  	display: block;
+  	position: center;
+  	font-size: 20px;
+}
+
+nav a {
+	text-decoration: none;
+	font-style: normal;
+	color: black;
+	display: inline-block;
+	padding: 20px;
+	margin-left: 30px;
+
+}
+
+nav a.active {
+  text-decoration: underline;
+  font-style: bold;
+}
+
+section#home {
+	width: 100%;
+	height: 900px;
+	background: url(../images/unsplash_525f012329589_1.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+h1 {
+	text-align: center;
+	font-size: 60px;
+	padding-top: 300px;
+	margin: 0;
+}
+
+h2 {
+	text-align: left;
+	font-size: 30px;
+	padding-top: 10px;
+}
+
+h4 {
+	text-align: left;
+}
+
+#textBlock {
+	width: 80%;
+	/*background: url(../images/unsplash_525f012329589_1.jpg) no-repeat center center fixed; */
+	/*opacity: 0.4;
+    filter: alpha(opacity=40);*/
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+section#tech {
+	width: 100%;
+	height: 900px;
+	background: url(../images/unsplash_525f012329589_1.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+section#apps {
+	width: 100%;
+	height: 900px;
+	background: url(../images/unsplash_525f012329589_1.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+section#commonSense {
+	width: 100%;
+	height: 900px;
+	background: url(../images/unsplash_525f012329589_1.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+section#banking {
+	width: 100%;
+	height: 950px;
+	background: url(../images/unsplash_525f012329589_1.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+section#safety {
+	width: 100%;
+	height: 750px;
+	background: url(../images/unsplash_525f012329589_1.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+section#inTransit {
+	width: 100%;
+	height: 950px;
+	background: url(../images/unsplash_525f012329589_1.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+section#packing {
+	width: 100%;
+	height: 900px;
+	background: url(../images/unsplash_525f012329589_1.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+section#winningGear {
+	width: 100%;
+	height: 750px;
+	background: url(../images/unsplash_525f012329589_1.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
