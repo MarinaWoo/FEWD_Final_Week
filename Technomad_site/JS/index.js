@@ -8,7 +8,7 @@ var waypoint2 = new Waypoint({
   	removeActive();
     $('#tech-link').addClass('active');
   },
-  offset: 50
+  offset: 100
 })
 
 var waypoint3 = new Waypoint({
