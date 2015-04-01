@@ -70,15 +70,15 @@ h1 {
 }
 
 section#home p {
-	width: 35%;
-	margin-left: 38%;
+	width: 40%;
+	margin-left: 34%;
 	text-align: center;
 	position: relative;
 	/*width: 60%;
 	margin-left: 20%;
 	margin-right: 20%;*/
 	font-size: 25px;
-	line-height: 30px;
+	line-height: 35px;
 	color: black;
 	background: white;
 	position: relative;
@@ -87,7 +87,7 @@ section#home p {
 
 section#home a {
 	text-decoration: none;
-	color: black;
+	color: grey;
 }
 
 h2 {
