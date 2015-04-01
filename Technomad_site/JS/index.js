@@ -2,22 +2,13 @@ function removeActive() {
   $('#navigation a').removeClass('active');
 };
 
-var waypoint1 = new Waypoint({
-  element: document.getElementById('theCrux'),
-  handler: function(direction) {
-  	removeActive();
-    $('#theCrux-link').addClass('active');
-  },
-  offset: 700 
-})
-
 var waypoint2 = new Waypoint({
   element: document.getElementById('tech'),
   handler: function(direction) {
   	removeActive();
     $('#tech-link').addClass('active');
   },
-  offset: 400 
+  offset: 50
 })
 
 var waypoint3 = new Waypoint({
@@ -26,7 +17,7 @@ var waypoint3 = new Waypoint({
   	removeActive();
     $('#apps-link').addClass('active');
   },
-  offset: 400 
+  offset: 50 
 })
 
 var waypoint4 = new Waypoint({
@@ -35,7 +26,7 @@ var waypoint4 = new Waypoint({
   	removeActive();
     $('#commonSense-link').addClass('active');
   },
-  offset: 400 
+  offset: 50 
 })
 
 var waypoint5 = new Waypoint({
@@ -44,7 +35,7 @@ var waypoint5 = new Waypoint({
   	removeActive();
     $('#banking-link').addClass('active');
   },
-  offset: 400 
+  offset: 50 
 })
 
 var waypoint6 = new Waypoint({
@@ -53,7 +44,7 @@ var waypoint6 = new Waypoint({
   	removeActive();
     $('#safety-link').addClass('active');
   },
-  offset: 400 
+  offset: 50 
 })
 
 var waypoint7 = new Waypoint({
@@ -62,7 +53,7 @@ var waypoint7 = new Waypoint({
   	removeActive();
     $('#inTransit-link').addClass('active');
   },
-  offset: 400 
+  offset: 50 
 })
 
 var waypoint8 = new Waypoint({
@@ -71,7 +62,7 @@ var waypoint8 = new Waypoint({
   	removeActive();
     $('#packing-link').addClass('active');
   },
-  offset: 400 
+  offset: 50 
 })
 
 var waypoint9 = new Waypoint({
@@ -80,5 +71,14 @@ var waypoint9 = new Waypoint({
   	removeActive();
     $('#winningGear-link').addClass('active');
   },
-  offset: 400 
+  offset: 50 
+})
+
+var waypoint10 = new Waypoint({
+  element: document.getElementById('about'),
+  handler: function(direction) {
+    removeActive();
+    $('#about-link').addClass('about');
+  },
+  offset: 50 
 })
